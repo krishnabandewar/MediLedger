@@ -1,0 +1,84 @@
+node_modules
+.env
+.env.local
+.next
+coverage
+coverage.json
+typechain
+typechain-types
+.vercel
+build
+artifacts
+cache
+```
+
+3. **Add your remote repository**:
+```bash
+git remote add origin https://github.com/krishnabandewar/MediLedger.git
+```
+
+4. **Add all files and create initial commit**:
+```bash
+git add .
+git commit -m "Initial commit: MediLedger blockchain healthcare project"
+```
+
+5. **Push to GitHub**:
+```bash
+git push -u origin main
+```
+
+> Note: If you get an error about the branch name, try:
+```bash
+git branch -M main
+git push -u origin main
+```
+
+### Important Reminders:
+
+- Make sure `.env` is in your `.gitignore` to protect sensitive data
+- Check that no private keys are accidentally committed
+- Your repository should include:
+  - React/Next.js frontend code
+  - Smart contracts
+  - Test files
+  - Configuration files
+  - Documentation
+
+### After Pushing:
+
+1. Verify your code is on GitHub by visiting:
+   `https://github.com/krishnabandewar/MediLedger`
+
+2. Add a README.md file:
+````markdown
+// filepath: [README.md](http://_vscodecontentref_/1)
+# MediLedger
+
+A blockchain-based healthcare management system for secure medical records and drug traceability.
+
+## Features
+
+- Medical Records Management
+- Drug Traceability
+- Blockchain Security
+- Patient Data Privacy
+
+## Technologies
+
+- Next.js
+- Ethereum
+- Solidity
+- Material-UI
+- Hardhat
+
+## Setup
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Create [.env](http://_vscodecontentref_/2) file with required variables
+4. Run development server: `npm run dev`
+
+## Deployment
+
+The project is deployed on Vercel: [MediLedger](https://medi-ledger.vercel.app)
